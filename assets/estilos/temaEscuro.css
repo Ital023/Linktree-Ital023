@@ -1,0 +1,13 @@
+.principal--escuro{
+    color: #fff;
+    background: linear-gradient(45deg, #2C3333 85%,#FFD93D 15%);
+    transition: .25s;
+}
+.botao--escuro{
+    background-color: #2C3333;
+    transition: .25s;
+}
+.nova-imagem--escura {
+    width: 40px;
+    transition: .25s;
+  }

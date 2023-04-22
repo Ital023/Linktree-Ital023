@@ -1,8 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;    
+}
 .principal{
+    background: linear-gradient(45deg, #FFD93D 0%,#2C3333 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    gap: 16px;
+    transition: .25s;
 }
+.modo-visual{
+    position: absolute;
+    right: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.imagem__trocar--fundo{
+    width: 30px;
+    transition: .25s;
+}
+.logoImg{
+    width: 7%;
+}
+.textoRedes{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 1.5rem;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
+}
+.botao{
+    padding: 15px 70px;
+    border: 2px solid #FFD93D;
+    background-color: #FFD93D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #2C3333;
+    transition: .25s;
+}
+.imagem__botao{
+    width: 20px;
+}
+.logo__insta{
+    margin-left: 10px;
+}
+.botao:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px rgb(229, 255, 0);
+    transition: .25s;
+  }
