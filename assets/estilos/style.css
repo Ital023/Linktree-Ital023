@@ -3,7 +3,7 @@ body{
     font-family: 'Ubuntu', sans-serif;    
 }
 .principal{
-    background: linear-gradient(45deg, #FFD93D 0%,#2C3333 100%);
+    background: linear-gradient(45deg, #fcdd58 0%,#2C3333 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,6 +25,8 @@ body{
 }
 .logoImg{
     width: 7%;
+    border: 2px solid #c4a210;
+    border-radius: 100%;
 }
 .textoRedes{
     font-size: 1.3rem;
@@ -59,8 +61,26 @@ body{
 .logo__insta{
     margin-left: 10px;
 }
+.logoImg:hover {
+    outline: none;
+    box-shadow: 1px 1px 10px rgb(229, 255, 0);
+    transition: .25s;
+}
 .botao:focus {
     outline: none;
     box-shadow: 1px 1px 10px rgb(229, 255, 0);
     transition: .25s;
-  }
+}
+.botao:hover{
+    background-color: #c4a210;
+    border: 2px solid #c4a210;
+}
+
+@media (max-width: 428px){
+    .modo-visual{
+        left: 315px;
+    }
+    .logoImg{
+        width: 30%;
+    }
+}

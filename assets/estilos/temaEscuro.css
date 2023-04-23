@@ -10,4 +10,8 @@
 .nova-imagem--escura {
     width: 40px;
     transition: .25s;
-  }
+}
+.botao--escuro:hover{
+    background-color: #171a1a;
+    transition: .40s;
+}
